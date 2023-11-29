@@ -1,0 +1,25 @@
+name: meetup_lightning_talk_build_runner
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_deck: ^0.5.0
+  flutter_shader_snap: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  shaders:
+    - packages/flutter_shader_snap/shaders/snap_effect_shader.glsl
