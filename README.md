@@ -1,16 +1,11 @@
-# meetup_lightning_talk_build_runner
+# Meetup talks
 
-A new Flutter project.
+These are some of the presentations for the talks I've given at meetups.
 
-## Getting Started
+## Code generation
 
-This project is a starting point for a Flutter application.
+Let’s talk about code generation. I will explain how it works, what different ways there are to generate code and show some examples. We will start with very basic generating with simple file manipulation and work our way up to using build_runner and finish with generating a navigator with a simple annotation on you screen widgets.
 
-A few resources to get you started if this is your first Flutter project:
+## build_runner (Lightning talk)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A short talk about tips for build_runner and how to speed up your builds.

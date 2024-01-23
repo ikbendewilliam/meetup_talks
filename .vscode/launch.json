@@ -5,18 +5,41 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "meetup_lightning_talk_build_runner",
+            "name": "lightning_talk_build_runner",
+            "cwd": "lightning_talk_build_runner",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "meetup_lightning_talk_build_runner (profile mode)",
+            "name": "lightning_talk_build_runner (profile mode)",
+            "cwd": "lightning_talk_build_runner",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "meetup_lightning_talk_build_runner (release mode)",
+            "name": "lightning_talk_build_runner (release mode)",
+            "cwd": "lightning_talk_build_runner",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "talk_code_generation",
+            "cwd": "talk_code_generation",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "talk_code_generation (profile mode)",
+            "cwd": "talk_code_generation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "talk_code_generation (release mode)",
+            "cwd": "talk_code_generation",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

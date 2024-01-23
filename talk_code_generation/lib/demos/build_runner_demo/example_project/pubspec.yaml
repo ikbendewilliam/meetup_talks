@@ -1,0 +1,26 @@
+name: example_project
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  example_annotations:
+    path: ../example_annotations
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  example_generator:
+    path: ../example_generator
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true

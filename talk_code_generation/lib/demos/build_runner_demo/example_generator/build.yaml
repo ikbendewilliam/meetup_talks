@@ -1,0 +1,7 @@
+builders:
+  example_builder:
+    import: "package:example_generator/builder.dart"
+    builder_factories: ["coolBuilder"]
+    build_extensions: { ".dart": [".cool.dart"] }
+    auto_apply: dependents
+    build_to: source

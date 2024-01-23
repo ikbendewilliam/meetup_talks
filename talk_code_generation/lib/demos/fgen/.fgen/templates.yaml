@@ -1,0 +1,6 @@
+dialog:
+  folder: screen
+  template_files:
+    - dialog.dart: _dialog
+  abbr: d
+  help: Generate a dialog, if viewmodel is generated, will add ProviderWidget
