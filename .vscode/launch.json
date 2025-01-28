@@ -11,15 +11,21 @@
             "type": "dart"
         },
         {
-            "name": "lightning_talk_build_runner (profile mode)",
+            "name": "lightning_talk_build_runner (release mode)",
             "cwd": "lightning_talk_build_runner",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "release"
         },
         {
-            "name": "lightning_talk_build_runner (release mode)",
-            "cwd": "lightning_talk_build_runner",
+            "name": "lightning_talk_flutter_crazy_fortune_wheel",
+            "cwd": "lightning_talk_flutter_crazy_fortune_wheel",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lightning_talk_flutter_crazy_fortune_wheel (release mode)",
+            "cwd": "lightning_talk_flutter_crazy_fortune_wheel",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
@@ -29,13 +35,6 @@
             "cwd": "talk_code_generation",
             "request": "launch",
             "type": "dart"
-        },
-        {
-            "name": "talk_code_generation (profile mode)",
-            "cwd": "talk_code_generation",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
         },
         {
             "name": "talk_code_generation (release mode)",
